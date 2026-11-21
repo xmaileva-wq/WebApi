@@ -12,6 +12,9 @@ builder.Services.AddHttpClient<CursoServicio>(httpClient =>
 
 var app = builder.Build();
 
+
+//amor y paz para vos
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

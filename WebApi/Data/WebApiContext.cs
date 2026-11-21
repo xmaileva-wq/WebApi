@@ -3,4 +3,6 @@ using Microsoft.EntityFrameworkCore;
 public class WebApiContext(DbContextOptions<WebApiContext> options) : DbContext(options)
 {
     public DbSet<WebApi.Models.Curso> Curso { get; set; } = default!;
+    public DbSet<WebApi.Models.Nivel> Nivel { get; set; } = default!;
+
 }
